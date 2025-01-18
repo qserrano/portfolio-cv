@@ -1,0 +1,178 @@
+
+
+.sobre-mi {
+    margin: 1em 4em;
+    padding: 1em;
+}
+
+    .mi-foto {
+        margin: 0;
+        padding: 1em;
+        float: left;
+    }
+
+        .mi-img {
+            width: 200px;
+            border-radius: 0% 30% 0% 30%;
+            box-shadow: 10px 10px 8px var(--BACKGROUND2);
+        }
+
+    .mi-historia {
+        font-size: 1em;
+    }
+
+.tiempo-libre {
+    margin: 1em 4em;
+    padding: 1em;
+    background-color: var(--BACKGROUND2);
+}
+
+    .foto-tiempo-libre {
+        margin: 0;
+        padding: 1em;
+        float: right;
+    }
+
+        .img-tiempo-libre {
+            width: 200px;
+            border-radius: 0% 30% 0% 30%;
+            box-shadow: 10px 10px 8px var(--BACKGROUND1);
+        }
+
+    .texto-tiempo-libre {
+        color: var(--ACCENT-2);
+        font-size: 1em;
+    }
+
+footer {
+    font-size: 1em;
+}
+
+/* --------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    
+    .sobre-mi {
+        margin: 1em;
+        padding: 1em;
+    }
+
+        .mi-foto {
+            margin: 0;
+            padding: 1em;
+            float: left;
+        }
+
+            .mi-img {
+                width: 150px;
+                border-radius: 0% 30% 0% 30%;
+            }
+
+        .mi-historia {
+            font-size: 1em;
+        }
+
+    .tiempo-libre {
+        margin: 1em;
+        padding: 1em;
+    }
+
+        .foto-tiempo-libre {
+            margin: 0;
+            padding: 1em;
+            float: right;
+        }
+
+            .img-tiempo-libre {
+                width: 150px;
+                border-radius: 0% 30% 0% 30%;
+            }
+
+        .texto-tiempo-libre {
+            color: var(--ACCENT-2);
+            font-size: 1em;
+        }
+
+    footer {
+        font-size: 1em;
+    }
+
+    .footer-contact-icons {
+        margin: 0 1em;
+    }
+    
+        footer > p {
+            margin: 0 1em;
+        }
+
+        .footer-legal {
+            margin: 0 1em;
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+    .sobre-mi {
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+
+        .mi-foto {
+            margin: 0;
+            padding: 0.5em;
+            float: left;
+        }
+
+            .mi-img {
+                width: 100px;
+                border-radius: 0% 30% 0% 30%;
+                
+            }
+
+        .mi-historia {
+            font-size: 0.8em;
+        }
+
+    .tiempo-libre {
+        margin: 0.5em;
+        padding: 0.5em;
+    }
+
+        .foto-tiempo-libre {
+            margin: 0;
+            padding: 0.5em;
+            float: right;
+        }
+
+            .img-tiempo-libre {
+                width: 100px;
+                border-radius: 0% 30% 0% 30%;
+            }
+
+        .texto-tiempo-libre {
+            color: var(--ACCENT-2);
+            font-size: 0.8em;
+        }
+
+    footer {
+        font-size: 0.8em;
+    }
+
+    .footer-contact-icons {
+        margin: 0 0.5em;
+    }
+    
+        footer > p {
+            margin: 0 0.5em;
+        }
+
+        .footer-legal {
+            margin: 0 0.5em;
+            display: flex;
+            flex-direction: column;
+        }
+}

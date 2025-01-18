@@ -1,0 +1,307 @@
+
+header {
+    background-color: var(--BACKGROUND1);
+    margin: 0 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.owner-photo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+    #owner-ilustration {
+        width: 350px;
+        height: auto;
+        margin:  1em 0;
+    }
+
+    .owner-name {
+        display: none;
+        color: var(--ACCENT-1);
+        margin: 1em 0.5em;
+    }
+
+    #slogan {
+        margin: 0.5em 0.5em;
+        text-align: center;
+        font-size: 4em;
+    }
+
+
+
+#informacion, #formacion, #experiencia-laboral, #idiomas, #soft-skills, #hard-skills, .skills {
+    background-color: var(--BACKGROUND2);
+    margin: 1em 4em;
+    padding: 0.5em;
+}
+
+    #informacion > h2, #formacion > h2, .formacion-no-reglada > h3, .formacion-reglada > h3, #experiencia-laboral > h2, #idiomas > h2, #soft-skills > h2, #hard-skills > h2 {
+        color: var(--ACCENT-2);
+    }
+
+    article {
+        margin: 1.5em 0em;
+        font-size: 1em;
+    }
+
+        article > p, article > ul {
+            margin: 0.2em;
+        }
+
+.formacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+    .formacion-no-reglada > h3, .formacion-reglada > h3 {
+        text-align: center;
+    }
+
+.skills {
+    display: flex;
+    background-color: var(--BACKGROUND2);
+}
+
+#soft-skills {
+    flex: 1;
+}
+
+#hard-skills {
+    flex: 1;
+}
+
+.ico-soft-skills{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.ico-hard-skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+/* ------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 800px) and (min-width: 480px) {
+    
+    header {
+        margin: 0.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .owner-nav {
+        display: none;
+    }
+
+    .owner-photo-container {
+        height: auto;
+        margin: 1em;
+    }
+
+        .owner-name {
+            display: block;
+            margin: 1em 0.5em;
+            text-align: center;
+            font-size: 1.5em;
+        }
+
+        #owner-photo {
+            width: 25vw;
+            height: auto;
+            margin: 1em;
+        }
+
+    #slogan {
+        margin: 0.5em 0.5em;
+        text-align: center;
+        font-size: 2em;
+    }
+
+        .slogan {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        #informacion, #formacion, #experiencia-laboral, #idiomas, .skills, #soft-skills, #hard-skills {
+            margin: 1em 1em;
+            padding: 0.5em;
+        }
+    
+
+    
+        article {
+            margin: 1.5em 0.5em;
+            font-size: 1em;
+        }
+    
+            article > p, article > ul {
+                margin: 0.2em;
+            }
+
+            .formacion {
+                display: flex;
+                flex-direction: column;
+            }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--BACKGROUND2);
+    }
+
+            .item-soft-skills {
+                font-size: 0.8em;
+                display: flex;
+                align-items: center;
+            }
+            
+            div.item-soft-skills > img {
+                margin: 1em;
+                width: 48px;
+            }
+            
+            div.item-soft-skills > p {
+                margin: 1em;
+            }
+            
+            .ico-hard-skills {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+
+    .last-go-up {
+        display: block;
+        text-align: right;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+
+    .footer-contact-icons {
+        margin: 0 1em;
+    }
+    
+        footer > p {
+            margin: 0 1em;
+        }
+
+        .footer-legal {
+            margin: 0 1em;
+            display: flex;
+            flex-direction: column;
+        }
+}
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+    header {
+        margin: 0.5em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .owner-nav {
+        display: none;
+    }
+
+    .owner-name {
+        display: block;
+        margin: 1em 0.5em;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .ir-arriba {
+        display: block;
+        text-align: right;
+    }
+
+    #slogan {
+        margin: 1.5em 0.5em;
+        padding: 0.5em;
+        text-align: center;
+        font-size: 1.35em;
+    }
+
+    #informacion, #formacion, #experiencia-laboral, #idiomas, .skills, #soft-skills, #hard-skills {
+        margin: 1em 0.5em;
+        padding: 0.5em;
+    }
+
+
+
+        #informacion > ul, #idiomas > ul {
+            font-size: 0.8em;
+        }
+
+    article {
+        margin: 0.5em 0.5em;
+        font-size: 0.8em;
+    }
+
+        article > p, article > ul {
+            margin: 0;
+        }
+
+        .formacion {
+            display: flex;
+            flex-direction: column;
+        }
+
+    .skills {
+        display: flex;
+        flex-direction: column;
+        background-color: var(--BACKGROUND2);
+    }
+    
+        .ico-soft-skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        .ico-hard-skills {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        footer {
+            font-size: 0.8em;
+        }
+
+        .footer-contact-icons {
+            margin: 0 0.5em;
+        }
+        
+            footer > p {
+                margin: 0 0.5em;
+            }
+
+            .footer-legal {
+                margin: 0 0.5em;
+                display: flex;
+                flex-direction: column;
+            }
+}
