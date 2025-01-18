@@ -1,10 +1,11 @@
 :root {
-    --BACKGROUND1: #1a1b1a;
-    --BACKGROUND2: #000201;
-    --TEXT: #c5f2f3;
-    --ACCENT-1: #3ece56;
-    --ACCENT-2: #684a3b;
-    --ACCENT-3: #f2312a;
+    --BACKGROUND1: #1a1c25;
+    --BACKGROUND2: #12141c;
+    --TEXT: #e3e4e8;
+    --TEXT2: #9ba1b0;
+    --ACCENT-1: #64ffda;
+    --ACCENT-2: #7f5af0;
+    --ACCENT-3: #ff6b6b;
   }
 
 body {
