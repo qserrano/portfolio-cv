@@ -1,4 +1,8 @@
-## Hi there 👋
+## Hola 👋
+
+Soy un profesional con experiencia en electromecánica y automatismos, orientado a la resolución de problemas y con iniciativa para enfrentar nuevos retos. Me destaco por mi capacidad para comunicarme de manera clara y organizada, mostrando escucha activa y respeto hacia los demás. Tengo habilidades para trabajar de forma autónoma, seleccionando estrategias adecuadas para alcanzar los objetivos. Reflexiono sobre las consecuencias de mis acciones, evaluando las alternativas y asumiendo la responsabilidad de mis decisiones. Además, utilizo diversos medios audiovisuales para crear composiciones efectivas y enriquecer mis proyectos, siempre con un enfoque en la superación y el aprendizaje continuo.
+
+Estoy comprometido con liderar y colaborar en proyectos que integren tecnología avanzada, diseño innovador y funcionalidad práctica. Mi objetivo es desarrollar soluciones que marquen la diferencia en un mundo en constante evolución.
 
 <!--
 **qserrano/qserrano** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
