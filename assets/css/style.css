@@ -1,11 +1,11 @@
 :root {
-    --BACKGROUND1: #1a1c25;
-    --BACKGROUND2: #12141c;
-    --TEXT: #e3e4e8;
-    --TEXT2: #9ba1b0;
-    --ACCENT-1: #64ffda;
-    --ACCENT-2: #7f5af0;
-    --ACCENT-3: #ff6b6b;
+    --BACKGROUND1: #1e1e2e;    /* Fondo principal más suave y elegante */
+    --BACKGROUND2: #181825;    /* Fondo secundario más profundo */
+    --TEXT: #cdd6f4;          /* Texto principal con un toque azulado */
+    --TEXT2: #a6adc8;         /* Texto secundario más suave */
+    --ACCENT-1: #89dceb;      /* Acento cian suave */
+    --ACCENT-2: #cba6f7;      /* Acento violeta suave */
+    --ACCENT-3: #f38ba8;      /* Acento rosa suave */
   }
 
 body {

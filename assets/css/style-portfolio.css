@@ -57,7 +57,7 @@
         align-items: center;
         width: 200px;
         font-size: 1em;
-        
+        color: var(--BACKGROUND1);
     }
 
         .ico-boton {
