@@ -1,29 +1,12 @@
-
-/* Estilos para el tema clásico */
-
 :root {
-    --BACKGROUND1: #1E1A17;
-    --BACKGROUND2: #2B2623;
-    --TEXT: #EFEBE9;
-    --TEXT2: #BCAAA4;
-    --ACCENT-1: #8D6E63;
-    --ACCENT-2: #A1887F;
-    --ACCENT-3: #D7CCC8;
+    --BACKGROUND1: #1e1e2e;    /* Fondo principal más suave y elegante */
+    --BACKGROUND2: #181825;    /* Fondo secundario más profundo */
+    --TEXT: #cdd6f4;          /* Texto principal con un toque azulado */
+    --TEXT2: #a6adc8;         /* Texto secundario más suave */
+    --ACCENT-1: #89dceb;      /* Acento cian suave */
+    --ACCENT-2: #cba6f7;      /* Acento violeta suave */
+    --ACCENT-3: #f38ba8;      /* Acento rosa suave */
   }
-
-
-/* Estilos para el tema nature
-
-:root {
-    --BACKGROUND1: #121F13;
-    --BACKGROUND2: #1A2E1C;
-    --TEXT: #E0F2E9;
-    --TEXT2: #A5B5A6;
-    --ACCENT-1: #4CAF50;
-    --ACCENT-2: #81C784;
-    --ACCENT-3: #FFB74D;
-}
-*/
 
 body {
     color: var(--TEXT);
