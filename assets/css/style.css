@@ -12,18 +12,19 @@
   }
 
 
-/* Estilos para el tema nature
+/* Tema claro con toques azules
 
 :root {
-    --BACKGROUND1: #121F13;
-    --BACKGROUND2: #1A2E1C;
-    --TEXT: #E0F2E9;
-    --TEXT2: #A5B5A6;
-    --ACCENT-1: #4CAF50;
-    --ACCENT-2: #81C784;
-    --ACCENT-3: #FFB74D;
+    --BACKGROUND1: #fcf9e8;
+    --BACKGROUND2: #ddfaf8;
+    --TEXT: #20201f;
+    --TEXT2: #BCAAA4;
+    --ACCENT-1: #FF6B6B;
+    --ACCENT-2: #125572;
+    --ACCENT-3: #F39C12;
 }
 */
+
 
 body {
     color: var(--TEXT);
