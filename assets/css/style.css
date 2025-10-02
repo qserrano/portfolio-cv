@@ -1,6 +1,6 @@
 
 /* Estilos para el tema clásico */
-
+/*
 :root {
     --BACKGROUND1: #1E1A17;
     --BACKGROUND2: #2B2623;
@@ -10,18 +10,31 @@
     --ACCENT-2: #A1887F;
     --ACCENT-3: #D7CCC8;
   }
+*/
 
-
-/* Tema claro con toques azules
+/* Tema claro clásico*/
 
 :root {
-    --BACKGROUND1: #fcf9e8;
-    --BACKGROUND2: #ddfaf8;
-    --TEXT: #20201f;
-    --TEXT2: #BCAAA4;
-    --ACCENT-1: #FF6B6B;
-    --ACCENT-2: #125572;
-    --ACCENT-3: #F39C12;
+    --BACKGROUND1: #EFEBE9;
+    --BACKGROUND2: #BCAAA4;
+    --TEXT: #1E1A17;
+    --TEXT2: #2B2623;
+    --ACCENT-1: #8D6E63;
+    --ACCENT-2: #2B2623;
+    --ACCENT-3: #ad684f;
+}
+
+
+/* Tema claro azulado*/
+/*
+:root {
+    --BACKGROUND1: #E8EAF6;
+    --BACKGROUND2: #d8dbf1;
+    --TEXT: #06081d;
+    --TEXT2: #283593;
+    --ACCENT-1: #5C6BC0;
+    --ACCENT-2: #283593;
+    --ACCENT-3: #42A5F5;
 }
 */
 
