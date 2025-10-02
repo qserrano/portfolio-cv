@@ -1,8 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair Display:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source Code Pro:wght@100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
 
 
 .title-regular {
@@ -39,19 +37,25 @@
 }
 
 .text-light {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: "Source Code Pro", monospace;
     font-weight: 200;
     font-style: normal;
+    font-size: 1em;
+    color: var(--TEXT);
 }
 
 .text-regular {
-    font-family: "Source Code Pro", sans-serif;
+    font-family: "Source Code Pro", monospace;
     font-weight: 300;
     font-style: normal;
+    font-size: 1em;
+    color: var(--TEXT);
 }
 
 .text-bold {
-    font-family: "Source Code Pro", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    font-family: "Source Code Pro", monospace;
+    font-weight: 500 !important;
+    font-style: normal; 
+    font-size: 1em;
+    color: var(--TEXT);
 }
